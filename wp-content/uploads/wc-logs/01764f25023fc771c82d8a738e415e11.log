@@ -1,0 +1,42 @@
+2022-09-15T08:27:52+00:00 CRITICAL /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php 中第 1020 行的 Uncaught Error: Call to undefined function gamezone_exists_trx_addons() in /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php:1020
+Stack trace:
+#0 /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-options/theme-options.php(19): gamezone_create_theme_options()
+#1 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(307): gamezone_options_theme_setup2()
+#2 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.ifun.cool/wp-includes/plugin.php(476): WP_Hook->do_action()
+#4 /www/wwwroot/www.ifun.cool/wp-settings.php(576): do_action()
+#5 /www/wwwroot/www.ifun.cool/wp-config.php(96): require_once('/www/wwwroot/ww...')
+#6 /www/wwwroot/www.ifun.cool/wp-load.php(50): require_once('/www/wwwroot/ww...')
+#7 /www/wwwroot/www.ifun.cool/wp-admin/admin.php(34): require_once('/www/wwwroot/ww...')
+#8 /www/wwwroot/www.ifun.cool/wp-admin/index.php(10): require_once('/www/wwwroot/ww...')
+#9 {main}
+  thrown
+
+2022-09-15T08:27:57+00:00 CRITICAL /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php 中第 1020 行的 Uncaught Error: Call to undefined function gamezone_exists_trx_addons() in /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php:1020
+Stack trace:
+#0 /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-options/theme-options.php(19): gamezone_create_theme_options()
+#1 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(307): gamezone_options_theme_setup2()
+#2 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.ifun.cool/wp-includes/plugin.php(476): WP_Hook->do_action()
+#4 /www/wwwroot/www.ifun.cool/wp-settings.php(576): do_action()
+#5 /www/wwwroot/www.ifun.cool/wp-config.php(96): require_once('/www/wwwroot/ww...')
+#6 /www/wwwroot/www.ifun.cool/wp-load.php(50): require_once('/www/wwwroot/ww...')
+#7 /www/wwwroot/www.ifun.cool/wp-blog-header.php(13): require_once('/www/wwwroot/ww...')
+#8 /www/wwwroot/www.ifun.cool/index.php(17): require('/www/wwwroot/ww...')
+#9 {main}
+  thrown
+
+2022-09-15T08:32:48+00:00 CRITICAL /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php 中第 1020 行的 Uncaught Error: Call to undefined function gamezone_exists_trx_addons() in /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-specific/theme-setup.php:1020
+Stack trace:
+#0 /www/wwwroot/www.ifun.cool/wp-content/themes/gamezone/theme-options/theme-options.php(19): gamezone_create_theme_options()
+#1 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(307): gamezone_options_theme_setup2()
+#2 /www/wwwroot/www.ifun.cool/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 /www/wwwroot/www.ifun.cool/wp-includes/plugin.php(476): WP_Hook->do_action()
+#4 /www/wwwroot/www.ifun.cool/wp-settings.php(576): do_action()
+#5 /www/wwwroot/www.ifun.cool/wp-config.php(96): require_once('/www/wwwroot/ww...')
+#6 /www/wwwroot/www.ifun.cool/wp-load.php(50): require_once('/www/wwwroot/ww...')
+#7 /www/wwwroot/www.ifun.cool/wp-blog-header.php(13): require_once('/www/wwwroot/ww...')
+#8 /www/wwwroot/www.ifun.cool/index.php(17): require('/www/wwwroot/ww...')
+#9 {main}
+  thrown
+
